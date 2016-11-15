@@ -8,7 +8,7 @@ use Mix.Config
 # Configures the endpoint
 config :drab_example, DrabExample.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "3ngWFPJaUkhXVTkKipyNCxuSWERFMwUPGDNFfh9D/ev6CukBL05kRiTCHwaY9wj3",
+  secret_key_base: "wm9SRUmy6l3fDY9pOPmOMGsN6OxPBySCPI488N1WnfRTPJFcSMowfMY9n37za+O0",
   render_errors: [view: DrabExample.ErrorView, accepts: ~w(html json)],
   pubsub: [name: DrabExample.PubSub,
            adapter: Phoenix.PubSub.PG2]

@@ -37,7 +37,7 @@ defmodule DrabExample.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_drab_example_key",
-    signing_salt: "Mc9WRDpl"
+    signing_salt: "U2yQWccq"
 
   plug DrabExample.Router
 end

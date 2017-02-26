@@ -1,5 +1,7 @@
 defmodule DrabExample.PageCommander do
-  use Drab.Commander, onload: :page_loaded
+  use Drab.Commander
+
+  onload :page_loaded
 
   # Drab Callbacks
   def page_loaded(socket) do

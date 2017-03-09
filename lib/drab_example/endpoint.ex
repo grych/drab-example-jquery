@@ -2,7 +2,6 @@ defmodule DrabExample.Endpoint do
   use Phoenix.Endpoint, otp_app: :drab_example
 
   socket "/socket", DrabExample.UserSocket
-  socket "/drab/socket", Drab.Socket
 
   # Serve at "/" the static files from "priv/static" directory.
   #

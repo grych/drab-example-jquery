@@ -21,16 +21,16 @@ This is an example Phoenix project with Drab installed. For info, please visit [
 
 * After the page connects, you will get some debugging information in IEx console:
 
-    [debug] 
-        Started Drab for /, handling events in DrabExample.PageCommander
-        You may debug Drab functions in IEx by copy/paste the following:
-    import Drab.Core; import Drab.Query; import Drab.Modal; import Drab.Waiter
-    socket = GenServer.call(pid("0.440.0"), :get_socket)
+      [debug] 
+          Started Drab for /, handling events in DrabExample.PageCommander
+          You may debug Drab functions in IEx by copy/paste the following:
+      import Drab.Core; import Drab.Query; import Drab.Modal; import Drab.Waiter
+      socket = GenServer.call(pid("0.440.0"), :get_socket)
 
-        Examples:
-    socket |> select(:htmls, from: "h4")
-    socket |> execjs("alert('hello from IEx!')")
-    socket |> alert("Title", "Sure?", buttons: [ok: "Azaliż", cancel: "Poniechaj"])
+          Examples:
+      socket |> select(:htmls, from: "h4")
+      socket |> execjs("alert('hello from IEx!')")
+      socket |> alert("Title", "Sure?", buttons: [ok: "Azaliż", cancel: "Poniechaj"])
 
 * Copy paste two lines as instructed:
 

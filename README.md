@@ -15,7 +15,7 @@ This is an example Phoenix project with Drab installed. For info, please visit [
 
 * Run Phoenix in IEx:
 
-    iex -S mix phoenix.server
+      iex -S mix phoenix.server
 
 * Open the browser to http://localhost:4000
 
@@ -34,17 +34,17 @@ This is an example Phoenix project with Drab installed. For info, please visit [
 
 * Copy paste two lines as instructed:
 
-    iex(2)> import Drab.Core; import Drab.Query; import Drab.Modal; import Drab.Waiter
-    Drab.Waiter
-    iex(3)> socket = GenServer.call(pid("0.440.0"), :get_socket)
-    %Phoenix.Socket{assigns: %{__action: :index,
-       __controller: DrabExample.PageController, __drab_pid: #PID<0.440.0>,
-       __url_path: "/"}, channel: Drab.Channel, channel_pid: #PID<0.439.0>,
-     endpoint: DrabExample.Endpoint, handler: DrabExample.UserSocket, id: nil,
-     joined: true, pubsub_server: DrabExample.PubSub, ref: "28",
-     serializer: Phoenix.Transports.WebSocketSerializer, topic: "__drab:/",
-     transport: Phoenix.Transports.WebSocket, transport_name: :websocket,
-     transport_pid: #PID<0.435.0>}
+      iex(2)> import Drab.Core; import Drab.Query; import Drab.Modal; import Drab.Waiter
+      Drab.Waiter
+      iex(3)> socket = GenServer.call(pid("0.440.0"), :get_socket)
+      %Phoenix.Socket{assigns: %{__action: :index,
+         __controller: DrabExample.PageController, __drab_pid: #PID<0.440.0>,
+         __url_path: "/"}, channel: Drab.Channel, channel_pid: #PID<0.439.0>,
+       endpoint: DrabExample.Endpoint, handler: DrabExample.UserSocket, id: nil,
+       joined: true, pubsub_server: DrabExample.PubSub, ref: "28",
+       serializer: Phoenix.Transports.WebSocketSerializer, topic: "__drab:/",
+       transport: Phoenix.Transports.WebSocket, transport_name: :websocket,
+       transport_pid: #PID<0.435.0>}
 
 * Now you can remote control the browser with Drab functions:
 

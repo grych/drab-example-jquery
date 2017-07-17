@@ -2,7 +2,7 @@ This is an example Phoenix project with Drab installed. For info, please visit [
 
 ### Requirements
 
-* Elixir 1.3
+* Elixir 1.4
 * Phoenix 1.2
 
 ### Installation

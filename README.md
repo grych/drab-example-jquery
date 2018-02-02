@@ -29,7 +29,7 @@ This is an example Phoenix project with Drab installed. For info, please visit [
 
           Examples:
       socket |> select(:htmls, from: "h4")
-      socket |> execjs("alert('hello from IEx!')")
+      socket |> exec_js("alert('hello from IEx!')")
       socket |> alert("Title", "Sure?", buttons: [ok: "Azaliż", cancel: "Poniechaj"])
 
 * Copy paste two lines as instructed:
@@ -50,7 +50,7 @@ This is an example Phoenix project with Drab installed. For info, please visit [
 
 Show JS alert box:
 
-    iex(3)> socket |> execjs("alert('hello from IEx!')") 
+    iex(3)> socket |> exec_js("alert('hello from IEx!')") 
     nil
 
 Get all href attributes:
